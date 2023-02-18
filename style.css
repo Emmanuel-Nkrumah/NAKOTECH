@@ -1,0 +1,113 @@
+body{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size:cover;
+    position: relative;
+}
+
+.bg{
+    background: linear-gradient(90deg,black,white);
+    opacity: 0.8;
+    position: relative;
+    width: 100%;
+line-height: 100px;
+color: blue;
+    font-size: 28px;
+    font-family: impact;
+    height: 100%;
+}
+
+.bg h1{
+    font-family: elephant;
+    color: orangered;
+}
+
+.bg h1 span{
+    color: purple;
+}
+
+.bg h1 span {
+    color: greenyellow;
+}
+
+.bg h3{
+    font-family: arial;
+    font-size: 43px;
+    color: purple;
+}
+
+.bg .message{
+    position: relative;
+    border-style: inset;
+    border-width: 10px;
+    width: 44%;
+    background: linear-gradient(90deg,greenyellow,black,black,greenyellow);
+    border-left: none;
+    border-right-style:ridge;
+    border-color: greenyellow;
+}
+
+.bg .message marquee{
+    position: relative;
+    
+    left: 0;
+    color: white;
+    font-size: 50px;
+    font-family: arial;
+    text-transform: capitalize;
+
+}
+
+.sign{
+    background: linear-gradient(90deg,green,greenyellow,greenyellow,greenyellow,greenyellow,greenyellow,green);
+    height: 90%;
+    width: 45%;
+    position:absolute;
+    right: 13;
+    text-align: center;
+    font-size: 30px;
+    font-family: cooper black;
+    top: 30px;
+    line-height: 30px;
+}
+
+.sign span{
+    font-size: 17px;
+    position: relative;
+    font-family: arial;
+    top: 30px;
+    line-height: 33px;
+}
+
+.sign form{
+    position: relative;
+    top: 43px;
+    line-height: 30px;
+    line-break: 100px;
+    
+    
+}
+
+.sign form input{
+    font-size: 30px;
+    line-height: px;
+    color: black;
+    text-transform: capitalize;
+}
+::placeholder{
+    color: blue;
+}
+
+.sign form .gd{
+    color: black;
+}
+
+.sign form .button{
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
